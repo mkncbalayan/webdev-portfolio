@@ -1,0 +1,24 @@
+.banner,
+.info,
+.education,
+.work,
+.portfolio {
+	border: 1px solid black;
+	text-align: center;
+}
+
+span.infodetail,
+span.educdetail,
+span.workdetail {
+	color: red;
+}
+
+.work div,
+.education div {
+	margin-bottom: 15px;
+	border-bottom: 1px solid black;
+}
+
+.portfolio div	{
+	margin: 20px 0;
+}
