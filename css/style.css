@@ -22,3 +22,7 @@ span.workdetail {
 .portfolio div	{
 	margin: 20px 0;
 }
+
+div.container-fluid {
+	width: 80%;
+}
