@@ -1,10 +1,28 @@
+@font-face {
+	font-family: 'Porto';
+	src: url(font/Porto 400.tff);
+}
+
+h3 {
+	font-family: Porto;
+}
+
 .banner,
 .info,
 .education,
 .work,
+.skills,
 .portfolio {
 	border: 1px solid black;
 	text-align: center;
+}
+
+div.content{
+	background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}
+
+div.content>div.container-fluid {
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 span.infodetail,
@@ -25,4 +43,18 @@ span.workdetail {
 
 div.container-fluid {
 	width: 80%;
+}
+
+.navbar	{
+	background-color: #00695c;
+}
+
+
+.navbar-default .navbar-nav>li>a,
+.navbar-brand {
+	color: #FFF;
+}
+
+h3	{
+	margin-top: 50px;
 }
