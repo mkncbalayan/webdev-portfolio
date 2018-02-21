@@ -1,10 +1,16 @@
 @font-face {
 	font-family: 'Porto';
-	src: url(font/Porto 400.tff);
+	src: url('../font/Porto400.ttf');
+}
+
+@font-face {
+	font-family: 'Moon';
+	src: url('../font/Moon2.0-Regular.otf');
 }
 
 h3 {
-	font-family: Porto;
+	font-family: 'Porto';
+	margin-top: 50px;
 }
 
 .banner,
@@ -15,6 +21,16 @@ h3 {
 .portfolio {
 	border: 1px solid black;
 	text-align: center;
+}
+
+.banner,
+.info,
+.education,
+.work,
+.skills,
+.portfolio,
+.navbar {
+	font-family: 'Moon';
 }
 
 div.content{
@@ -53,8 +69,4 @@ div.container-fluid {
 .navbar-default .navbar-nav>li>a,
 .navbar-brand {
 	color: #FFF;
-}
-
-h3	{
-	margin-top: 50px;
 }
