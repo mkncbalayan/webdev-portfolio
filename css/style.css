@@ -7,7 +7,7 @@
 	font-family: 'Moon';
 	src: url('../font/Moon2.0-Regular.otf');
 }
-
+/*.navbar-default,*/
 h3 {
 	font-family: 'Porto';
 	margin-top: 51px;
@@ -19,7 +19,7 @@ h3 {
 .work,
 .skills,
 .portfolio {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	text-align: center;
 }
 
@@ -33,13 +33,19 @@ h3 {
 	font-family: 'Moon';
 }
 
+.work {
+	margin-bottom: 50px;
+}
+
 div.content{
-background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 margin-top: 51px;
 }
 
 div.content>div.container-fluid {
-	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+	/*background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);*/
 }
 
 span.infodetail,
@@ -48,10 +54,10 @@ span.workdetail {
 	color: red;
 }
 
-.work div,
+.workdiv div,
 .education div {
 	margin-bottom: 15px;
-	border-bottom: 1px solid black;
+	/*border-bottom: 1px solid black;*/
 }
 
 .portfolio div	{
@@ -70,4 +76,33 @@ div.container-fluid {
 .navbar-default .navbar-nav>li>a,
 .navbar-brand {
 	color: #FFF;
+}
+
+.portfoliodetail img {
+	width: 150px;
+}
+
+.profpic	{
+	width: 60%;
+	margin: 0 auto;
+/*	display: flex;
+	flex: wrap;*/
+}
+
+.banner	{
+	width: 30%;
+}
+
+.profpic {
+	width: 100px;
+	border-radius: 10px;
+}
+
+.navbar-brand {
+	color: white;
+	font-family: 'Porto';
+}
+
+.company {
+	color: blue;
 }
